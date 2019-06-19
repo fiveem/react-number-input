@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './style.scss'
 
-const allowedUnits = ['px', 'pt', 'cm', 'mm']
+const UNITS = ['px', 'pt', 'in', 'cm', 'mm']
 
 class NumberInput extends React.Component {
 
@@ -63,7 +63,8 @@ class NumberInput extends React.Component {
     }
 
     renderUnits() {
-        return allowedUnits.map(unit => <option key={unit} value={unit}>{unit}</option>)
+        const units = this.props.units || UNITS
+        return units.map(unit => <option key={unit} value={unit}>{unit}</option>)
     }
 }
 
