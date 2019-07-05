@@ -23,6 +23,13 @@ class NumberInput extends React.Component {
     }
 
     extractNumberAndUnit() {
+        if (!this.props.value) {
+            return {
+                number: 0,
+                unit: UNITS[0]
+            }
+        }
+
         const number = parseInt(this.props.value, 10) || 0
         const unit = this.props.value.replace(number, '')
         return { number, unit }
