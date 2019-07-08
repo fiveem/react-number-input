@@ -1,7 +1,6 @@
 # React Number Input
 
-[![Npm Version][npm-version-image]][npm-version-url]
-[![License][license-image]][license-url]
+[![npm (scoped)](https://img.shields.io/npm/v/@fiveem/react-number-input.svg)](https://www.npmjs.com/package/@fiveem/react-number-input)
 
 ## Screenshots
 
