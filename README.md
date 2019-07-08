@@ -5,6 +5,7 @@
 ## Screenshots
 
 ![React Number Input](./docs/img1.png)
+
 ![React Number Input](./docs/img2.png)
 
 ## Install
